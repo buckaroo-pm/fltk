@@ -30,7 +30,7 @@
 #include <FL/Fl_Pixmap.H>
 #include <FL/Fl_Tree.H>
 #include <stdio.h>
-#include "../src/flstring.h"
+// #include "../src/flstring.h"
 #include "undo.h"
 
 #include "Fl_Widget_Type.h"

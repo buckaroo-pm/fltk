@@ -1,0 +1,16 @@
+cxx_library(
+  name = 'png', 
+  header_namespace = '', 
+  exported_headers = subdir_glob([
+    ('', '**/*.h'), 
+  ]), 
+  srcs = glob([
+    '**/*.c', 
+  ]), 
+  deps = [
+    '//zlib:zlib', 
+  ], 
+  visibility = [
+    'PUBLIC', 
+  ], 
+)

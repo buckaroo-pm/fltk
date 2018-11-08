@@ -1342,7 +1342,7 @@ int Fl_Window_Type::handle(int event) {
 ////////////////////////////////////////////////////////////////
 
 #include <stdio.h>
-#include "../src/flstring.h"
+// #include "../src/flstring.h"
 
 void Fl_Window_Type::write_code1() {
   Fl_Widget_Type::write_code1();

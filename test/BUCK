@@ -1,0 +1,184 @@
+cxx_binary(
+  name = 'adjuster', 
+  srcs = [
+    'adjuster.cxx', 
+  ],
+  deps = [
+    '//:fltk', 
+  ], 
+)
+
+cxx_binary(
+  name = 'animated', 
+  srcs = [
+    'animated.cxx', 
+  ],
+  deps = [
+    '//:fltk', 
+  ], 
+)
+
+cxx_binary(
+  name = 'arc', 
+  srcs = [
+    'arc.cxx', 
+  ],
+  deps = [
+    '//:fltk', 
+  ], 
+)
+
+cxx_binary(
+  name = 'ask', 
+  srcs = [
+    'ask.cxx', 
+  ],
+  deps = [
+    '//:fltk', 
+  ], 
+)
+
+cxx_binary(
+  name = 'bitmap', 
+  srcs = [
+    'bitmap.cxx', 
+  ],
+  deps = [
+    '//:fltk', 
+  ], 
+)
+
+cxx_binary(
+  name = 'blocks', 
+  headers = subdir_glob([
+    ('', '**/*.xpm'),
+  ]), 
+  srcs = [
+    'blocks.cxx', 
+  ],
+  deps = [
+    '//:fltk', 
+  ], 
+)
+
+cxx_binary(
+  name = 'boxtype', 
+  srcs = [
+    'boxtype.cxx', 
+  ],
+  deps = [
+    '//:fltk', 
+  ], 
+)
+
+cxx_binary(
+  name = 'browser', 
+  srcs = [
+    'browser.cxx', 
+  ],
+  deps = [
+    '//:fltk', 
+  ], 
+)
+
+cxx_binary(
+  name = 'button', 
+  srcs = [
+    'button.cxx', 
+  ],
+  deps = [
+    '//:fltk', 
+  ], 
+)
+
+cxx_binary(
+  name = 'buttons', 
+  srcs = [
+    'buttons.cxx', 
+  ],
+  deps = [
+    '//:fltk', 
+  ], 
+)
+
+cxx_binary(
+  name = 'checkers', 
+  header_namespace = '', 
+  headers = subdir_glob([
+    ('', '**/*.xbm'),
+  ]), 
+  srcs = [
+    'checkers.cxx', 
+  ],
+  deps = [
+    '//:fltk', 
+  ], 
+)
+
+cxx_binary(
+  name = 'clock', 
+  srcs = [
+    'clock.cxx', 
+  ],
+  deps = [
+    '//:fltk', 
+  ], 
+)
+
+cxx_binary(
+  name = 'colbrowser', 
+  srcs = [
+    'colbrowser.cxx', 
+  ],
+  deps = [
+    '//:fltk', 
+  ], 
+)
+
+cxx_binary(
+  name = 'color_chooser', 
+  header_namespace = '', 
+  headers = [
+    'list_visuals.cxx', 
+  ], 
+  srcs = [
+    'color_chooser.cxx', 
+  ],
+  deps = [
+    '//:fltk', 
+  ], 
+)
+
+cxx_binary(
+  name = 'connect', 
+  srcs = [
+    'connect.cxx', 
+  ],
+  deps = [
+    '//:fltk', 
+  ], 
+)
+
+cxx_binary(
+  name = 'fonts', 
+  srcs = [
+    'fonts.cxx', 
+  ],
+  deps = [
+    '//:fltk', 
+  ], 
+)
+
+cxx_binary(
+  name = 'sudoku', 
+  header_namespace = '', 
+  headers = subdir_glob([
+    ('', '**/*.xbm'), 
+  ]), 
+  srcs = [
+    'sudoku.cxx', 
+  ],
+  deps = [
+    '//:fltk', 
+  ], 
+)

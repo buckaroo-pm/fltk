@@ -1,0 +1,12 @@
+cxx_binary(
+  name = 'clipboard', 
+  headers = subdir_glob([
+    # ('', '**/*.xpm'),
+  ]), 
+  srcs = [
+    'clipboard.cxx', 
+  ], 
+  deps = [
+    '//:fltk', 
+  ], 
+)

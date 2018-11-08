@@ -35,7 +35,7 @@ int main(int, char**) {
 
 #else
 
-#include <config.h>
+// #include <config.h>
 
 #define HAVE_MULTIBUF 0
 

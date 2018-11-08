@@ -1,0 +1,13 @@
+cxx_binary(
+  name = 'fluid', 
+  header_namespace = '', 
+  headers = subdir_glob([
+    ('', '**/*.h'), 
+  ]), 
+  srcs = glob([
+    '*.cxx', 
+  ]), 
+  deps = [
+    '//:fltk', 
+  ], 
+)

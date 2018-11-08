@@ -40,7 +40,7 @@
 #endif // WIN32
 
 // Audio headers...
-#include <config.h>
+// #include <config.h>
 
 #ifndef WIN32
 #  include <unistd.h>
